@@ -76,6 +76,6 @@ const server = createServer(function (request, response) {
   }
 });
 // Listen
-server.listen(process.env.PORT || 8080, function () {
+server.listen(process.env.PORT, function () {
   console.log("Server listening on port 8080");
 });
